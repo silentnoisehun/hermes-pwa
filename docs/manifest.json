@@ -1,0 +1,42 @@
+{
+  "name": "HERMES — Serverless Agent",
+  "short_name": "HERMES",
+  "description": "Local-first WASM agent with Telegram sync",
+  "start_url": "/hermes-pwa/",
+  "scope": "/hermes-pwa/",
+  "display": "standalone",
+  "background_color": "#08090B",
+  "theme_color": "#08090B",
+  "orientation": "portrait-primary",
+  "categories": ["productivity"],
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%23f2f3f5' width='192' height='192'/><text x='96' y='140' font-size='120' font-weight='bold' text-anchor='middle' fill='%2308090b'>H</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%2376d4d1' width='192' height='192'/><text x='96' y='140' font-size='120' font-weight='bold' text-anchor='middle' fill='%23ffffff'>H</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 720'><rect fill='%2308090b' width='540' height='720'/><text x='270' y='360' font-size='200' font-weight='bold' text-anchor='middle' fill='%2376d4d1'>H</text></svg>",
+      "sizes": "540x720",
+      "type": "image/svg+xml",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "New Message",
+      "short_name": "Message",
+      "description": "Start a new conversation",
+      "url": "/hermes-pwa/?mode=new"
+    }
+  ]
+}
